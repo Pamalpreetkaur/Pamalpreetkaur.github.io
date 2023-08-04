@@ -1,0 +1,911 @@
+/* General Styles */
+
+  
+body {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+  
+/* Header Styles */
+
+
+header {
+
+  display: flex;
+  align-items: center;
+background: linear-gradient(165deg, rgba(251,63,136,1) 0%, rgba(251,252,70,1) 100%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+
+  width: 150px;
+  height: 60px;
+ margin-right: 400px;
+}
+
+h1 {
+
+  text-align: center;
+  text-decoration: none;
+  color: rgb(9, 22, 141);
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  Navigation Style */
+nav {
+  background-color: #f1f1f1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #1040c3;
+}
+
+a:hover {
+  background-color: #99a1a4;
+}
+
+
+/* Home Styles  */
+#home {
+
+  padding: 200px;
+  background-image: url(img4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+
+
+#home h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  font-size: 56px;
+  color: #010101;
+}
+
+#home p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  font-size: 44px;
+  color: #0e0715;
+
+}
+
+#homepics {
+  padding: 20px;
+  margin: 0px;
+  background-color: #c9b9b4;
+}
+
+
+#homepics img {
+  padding: 5px;
+  width: 200px;
+  height: 250px;
+  border-radius: 25%;
+  margin-bottom: 20px;
+}
+
+#homepics h2 {
+  font-size: 40px;
+  color: #060505;
+  text-align: center;
+}
+
+#homepics ul {
+  list-style-type: none;
+
+}
+
+#homepics ul li {
+
+  text-decoration: none;
+  color: rgb(240, 241, 247);
+  margin-bottom: 5px;
+}
+
+
+#homepics ul li a {
+
+  text-decoration: none;
+  color: rgb(18, 11, 46);
+
+}
+
+#homepics.container {
+  max-width: 800px;
+
+  margin: 0 auto;
+}
+
+
+
+
+/*  Bookcategories Styles  */
+#bookcategories {
+  background-image: url(pic.jpeg);
+  min-height: 600px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0px;
+}
+
+#bookcategories ul {
+  list-style-type: none;
+
+}
+
+#bookcategories ul li {
+
+  text-decoration: none;
+  color: rgb(240, 241, 247);
+  margin-bottom: 5px;
+}
+
+
+#bookcategories ul li a {
+
+  text-decoration: none;
+  color: rgb(18, 11, 46);
+
+}
+
+h3 {
+  margin: 10px 0px 0px 3px;
+  font-size: 36px;
+  color: #181f30;
+  text-align: center;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+.categories p {
+  margin: 40px;
+  color: rgb(53, 35, 78);
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+/* Textbook Styles  */
+#textbooks {
+  margin: 0px;
+
+  background-color: rgb(205, 199, 197);
+  text-align: center;
+}
+
+
+.book-row {
+  display: flex;
+
+}
+
+.book {
+  margin: 20px;
+  padding: 30px;
+  width: 200px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.book img {
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.book h2 {
+  font-size: 26px;
+  color: #333;
+}
+
+
+.book p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Mystery Styles */
+
+#mystery {
+  margin: 0px;
+  background-color: rgb(205, 199, 197);
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+
+  margin: 0 auto;
+}
+
+/* fiction Styles */
+
+#fiction {
+
+  margin: 0px;
+  background-color: rgb(205, 199, 197);
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Novels Styles */
+#novels {
+  background-color: rgb(205, 199, 197);
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Documenteries  Styles*/
+
+#documentries {
+  background-color: rgb(205, 199, 197);
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Storybook Styles */
+
+#storybooks {
+  background-color: rgb(205, 199, 197);
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Religion Styles */
+
+#religion {
+  background-color: rgb(205, 199, 197);
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* About Styles */
+
+#about {
+ 
+background: linear-gradient(158deg, rgba(238,174,202,1) 0%, rgba(225,176,176,1) 14%, rgba(148,187,233,1) 100%);
+
+  padding: 50px;
+  text-align: center;
+
+}
+
+#about h2 {
+  color: darkslateblue;
+}
+
+#about p {
+  color: black;
+
+  font-size: 16px;
+  line-height: 1.5;
+
+}
+
+#about ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#about h2:hover {
+  background-color: #d7dbdc;
+}
+
+
+/*  Contact Page */
+main {
+  padding: 20px;
+  background-color: lightgray;
+}
+
+#contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact-form h2 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+#contact-form input,
+textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+#contact-info h2,
+p {
+  text-align: center;
+
+}
+
+#contact-form ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#contact-form h2:hover {
+  background-color: #d7dbdc;
+}
+
+/* News Page Styles */
+
+#news,
+#articles,
+#blogs,
+#magazines {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+/* Additional styles for different post sections */
+
+#news h1,
+#articles h1,
+#blogs h1,
+#magazines h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#news .news-post,
+#articles .article-post,
+#blogs .blog-post,
+#magazines .magazine-post {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Additional styles for different post sections */
+
+#news .news-post h2,
+#articles .article-post h2,
+#blogs .blog-post h2,
+#magazines .magazine-post h2 {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+#news .news-post .date,
+#articles .article-post .date,
+#blogs .blog-post .date,
+#magazines .magazine-post .date {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+#news .news-post a,
+#articles .article-post a,
+#blogs .blog-post a,
+#magazines .magazine-post a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  color: #333;
+}
+
+#news .news-post a:hover,
+#articles .article-post a:hover,
+#blogs .blog-post a:hover,
+#magazines .magazine-post a:hover {
+  background-color: #444a4d;
+}
+
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+
+
+
+}
+
+
+
+
+/* shopping cart page*/
+
+#cart {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#cart h1 {
+  text-align: center;
+}
+
+#cart table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  border: 2px solid black;
+}
+
+th {
+  background-color: #282b65;
+  color: white;
+}
+
+tr.total-row td {
+  font-weight: bold;
+
+}
+
+.checkout-btn {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #282b65;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.checkout-btn:hover {
+  background-color: #4a4646;
+}
+
+#special-offers {
+  margin-top: 30px;
+}
+
+#special-offers h2 {
+  text-align: center;
+}
+
+.offer {
+  margin-bottom: 20px;
+}
+
+.offer h3 {
+  margin-bottom: 10px;
+}
+
+.offer p {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+/* Checkout Page  */
+
+#checkout {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+}
+
+button[type="submit"] {
+  padding: 5px;
+}
+
+/* User-Account Page */
+#user-account {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#user-account h1 {
+  text-align: center;
+  color: #283188;
+}
+
+.account-section {
+  margin-bottom: 30px;
+}
+
+.account-section h2 {
+  margin-bottom: 10px;
+
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #c7ccde;
+  color: rgb(24, 23, 23);
+  text-decoration: none;
+}
+
+/* Style the Search Form */
+.search-container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.search-container input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .search-container input[type="text"] {
+    width: 100%;
+  }
+}
+
+
+/* Account Page Styles */
+.account {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.login-section,
+.account-settings-section {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.login-section h3,
+.account-settings-section h3 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.logout-btn {
+  background-color: #0c0d52;
+}
+
+
+/* Search Bar Styles */
+.search-bar {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.search-bar input[type="text"],
+select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+
+  /* Styles for tablets and smaller screens */
+  .search-bar,
+  .related-products {
+    max-width: 90%;
+  }
+}
+
+
+
+
+/* Footer Styles */
+footer {
+  font-style: italic;
+  padding: 1em;
+  background: rgba(25, 25, 25, 0.90);
+  width: 100%;
+  font-size: 90%;
+  text-align: center;
+  color: #EAEAEA;
+  position: relative;
+  bottom: 0;
+
+}
+footer a {
+  text-decoration: none;
+  color: #EAEAEA;
+}
+
+footer p {
+  margin: auto;
+  text-decoration: none;
+  color: #EAEAEA;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Styles */
+/* ... (your existing styles) ... */
+
+/* Media Queries for Tablet */
+@media screen and (max-width: 768px) {
+  /* Adjustments for tablets and smaller screens */
+
+  /* Update logo margin for smaller screens */
+  .logo img {
+    margin-right: 10px;
+  }
+
+  /* Update navigation styles for smaller screens */
+  nav {
+    padding: 10px;
+  }
+
+  /* Update header styles for smaller screens */
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* Update home section padding for smaller screens */
+  #home {
+    padding: 100px;
+  }
+
+  /* Update book images size for smaller screens */
+  #homepics img {
+    width: 100px;
+    height: 150px;
+  }
+
+  /* Update footer styles for smaller screens */
+  footer {
+    padding: 0.5em;
+  }
+
+  /* Update book layout for tablet screens */
+  .book {
+    width: 150px; /* Adjust width for tablet screens */
+    margin: 10px; /* Adjust margins for tablet screens */
+  }
+
+  /* Update book image size for tablet screens */
+  .book img {
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0; /* Remove border radius for tablet screens */
+  }
+}
+
+/* Media Queries for Mobile */
+@media screen and (max-width: 480px) {
+  /* Adjustments for mobile screens */
+
+  /* Update logo margin for smaller screens */
+  .logo img {
+    margin-right: 5px;
+  }
+
+  /* Update header styles for smaller screens */
+  header {
+    padding: 5px;
+  }
+
+  /* Update home section padding for smaller screens */
+  #home {
+    padding: 50px;
+  }
+
+  /* Update book images size for smaller screens */
+  #homepics img {
+    width: 80px;
+    height: 100px;
+  }
+
+  /* Update footer styles for smaller screens */
+  footer {
+    padding: 0.2em;
+  }
+
+  /* Update book layout for mobile screens */
+  .book {
+    width: 100%; /* Make the book take full width of the container */
+    margin: 5px 0; /* Adjust margins for mobile screens */
+  }
+
+  /* Update book image size for mobile screens */
+  .book img {
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0; /* Remove border radius for mobile screens */
+  }
+}
+
